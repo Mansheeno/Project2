@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(images/movie-bg.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    padding: 20px 0;
+    box-shadow: 0 2px 10px rgba(239, 239, 239, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.logo{
+    color: hsl(0, 64%, 44%);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2.2em;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+.nav-contaier{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li{
+    margin-left: 2rem;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
