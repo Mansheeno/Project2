@@ -644,13 +644,14 @@ textarea{
 
 
 .terms {
-    background-color: #333;
+    background-color: #181d29;;
     padding: 20px;
     color: #fff;
   }
   
   .terms h1, .terms h2, .terms h3 {
     color: #ff7200;
+    margin-bottom: 20px;
   }
   
   .terms p {
@@ -673,6 +674,7 @@ textarea{
   
   .services h1, .services h2, .services h3 {
     color: #ff7200;
+    margin-bottom: 20px;
   }
   
   .services p {
@@ -693,6 +695,88 @@ textarea{
     margin-bottom: 10px;
   }
 
+
+.payments {
+  background-color: #181d29;;
+  padding: 20px;
+  color: #fff;
+}
+
+.payments h1, .payments h2 {
+  color: #ff7200;
+  margin-bottom: 20px;
+}
+
+.payment-methods {
+  margin-bottom: 20px;
+}
+
+.payment-methods ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.payment-methods li {
+  margin-bottom: 10px;
+}
+
+.payment-form {
+  margin-bottom: 20px;
+}
+
+.payment-form input[type="text"], .payment-form input[type="email"] {
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.payment-form ::placeholder{
+  color: #000;
+  font-size: 20px;
+}
+
+.payment-form button[type="submit"] {
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  background-color: #ff7200;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.payment-form button[type="submit"]:hover {
+  background-color: #e8645d;
+}
+
+.privacy {
+  background-color: #181d29;
+  padding: 20px;
+  color: #fff;
+}
+
+.privacy h1, .privacy h2 {
+  color: #ff7200;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.privacy ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.privacy li {
+  margin-bottom: 10px;
+}
+
+
 @media (max-width: 767px){
     .container {
         flex-direction: column;
@@ -700,6 +784,10 @@ textarea{
       }
     nav{
         margin-top: 50px;
+    }
+    nav ul{
+      flex-direction: column;
+      align-items: center;
     }
     .container input{
         margin-top: 20px;
@@ -757,6 +845,10 @@ textarea{
     .container6 {
         flex-direction: column;
         text-align: center;
+      }
+
+      .container6 p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       }
       .upload {
         margin-left: 0;
