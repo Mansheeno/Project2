@@ -506,7 +506,7 @@ select{
     font-size: 20px;
 }
 
-.container3 p{
+.container3 > p{
     color: #ffffff;
     font-size:20px;
 }
@@ -537,7 +537,7 @@ select{
     width: 100px;
     height: 2rem;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: .5rem;
     background-color: #ff7200;
     font-size: 15px;
     color: #fff;
@@ -549,6 +549,13 @@ select{
 
 .icons{
   display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.fab{
+  margin-top: 10px;
+  font-size: 26px;
 }
 
 .about {
