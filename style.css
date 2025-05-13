@@ -460,7 +460,7 @@ select{
     border-right: none;
 }
 
-.container1 div{
+.container1 > div{
     padding-top: 10px;
     border: 1px solid hsl(199, 29%, 49%);
     width: 350px;
@@ -524,13 +524,14 @@ select{
     border-top: none;
     border-left: none;
     border-right: none;
+    color: #fff;
+    font-size: 20px;
 }
 
-.container3 div{
+.container3 > div{
     padding-top: 10px;
     border: 1px solid hsl(199, 29%, 49%);
     width: 350px;
-
 }
 .container3 button{
     width: 100px;
@@ -546,8 +547,9 @@ select{
 
 }
 
-
-
+.icons{
+  display: flex;
+}
 
 .about {
     display: flex;
