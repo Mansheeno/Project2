@@ -555,7 +555,12 @@ select{
 
 .fab{
   margin-top: 20px;
+  color: #fff;
   font-size: 26px;
+}
+
+.fab:hover{
+  color: #ff7200;
 }
 
 .about {
