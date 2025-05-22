@@ -82,7 +82,7 @@ a:hover{
     display: none;
     cursor: pointer;
     position: absolute;
-    left: 10px;
+    left: 5px;
     top: 40px;
   }
 
@@ -836,7 +836,7 @@ textarea{
       left: 0;
       width: 50%;
       background-color: #181d29;
-      padding-left: 5px;
+      padding: 5px;
     }
 
     .nav-links.show{
